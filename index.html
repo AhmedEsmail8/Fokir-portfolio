@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Fokir</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h2>Fokir</h2>
+        <ul>
+          <li><p href="#" class="nav-home" id="theme-color" onclick="scrollToDiv('.home')">Home</p></li>
+          <li><p href="" class="nav-about" onclick="scrollToDiv('.about')">About</p></li>
+          <li><p href="" class="nav-services" onclick="scrollToDiv('.service')">Services</p></li>
+          <li><p href="" class="nav-portfolio" onclick="scrollToDiv('.portfolio')">Portfolio</p></li>
+          <li><p href="" class="nav-testimonial" onclick="scrollToDiv('.feedback')">Testimonial</p></li>
+          <li><p href="" class="nav-blog" onclick="scrollToDiv('.blog')">Blog</p></li>
+          <li><p href="" class="nav-contact" onclick="scrollToDiv('.contact-us')">Contact</p></li>
+        </ul>
+        <div class="clr"></div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <div class="home-overlay">
+        <div class="home-text">
+            <span class="hello">Hello i'm</span>
+            <h1 id="theme-color">ALEX SMITH</h1>
+            <h2>Professional Web 
+            <span>Developer</span>
+            </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="about-container">
+        <div class="image">
+          <img src="images/about.jpg" alt="user image">
+          <div class="img-overlay">
+            <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-google"></i>
+              <i class="fa fa-github"></i>
+            </div>
+          </div>
+          
+        </div>
+        <div class="text">
+          <h2>HELLO,</h2>
+          <p class="border-bottom-dashed">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <table>
+            <tr>
+              <td><span>Name: </span>Rdam smith</td>
+              <td><span>Job Title: </span>UI/UX Designer</td>
+            </tr>
+            <tr>
+              <td><span>Age: </span>26 Year</td>
+              <td><span>Location: </span>United States, US</td>
+            </tr>
+            <tr>
+              <td><span>Freelance: </span>Available</td>
+              <td><span>E-mail: </span>example@gmail.com</td>
+            </tr>
+          </table>
+          <button class="btn">Download CV<i class="fa fa-download" aria-hidden="true"></i></button>
+          <button class="btn">Hire Me<i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </div>
+        <div class="clr"></div>
+      </div>
+      
+    </div>
+
+
+    <div class="service">
+      <h2 class="heading lines">Our Services</h2>
+      <div class="items-container">
+        <div class="item">
+          <i class="fas fa-pencil-ruler"></i>
+          <h2>UI/UX DESIGN</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+        </div>
+        <div class="item">
+          <i class='fas fa-code'></i>
+          <h2>APP DEVELOPMENT</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+        </div>
+        <div class="item">
+          <i class='far fa-object-group'></i>
+          <h2>PRODUCT DESIGN</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+        </div>
+        <div class="item">
+          <i class="fa fa-gears"></i>
+          <h2>UI/UX DESIGN</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <h2 class="lines heading">Our Portfolio</h2>
+      <ul class="items-class">
+        <li id="theme-color">all</li>
+        <li>graphic</li>
+        <li>web design</li>
+        <li>branding</li>
+      </ul>
+
+      <ul class="products">
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-file-image-o"></i>
+            <img src="images/portfolio/1.jpg" alt="item1">
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-link"></i>
+            <img src="images/portfolio/2.jpg" alt="item2">
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-file-video-o"></i>
+            <img src="images/portfolio/3.jpg" alt="item3">
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-file-image-o"></i>
+            <img src="images/portfolio/4.jpg" alt="item4">
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-link"></i>
+            <img src="images/portfolio/5.jpg" alt="item5">
+          </div>
+        </li>
+        <li>
+          <div class="product-item">
+            <div class="overlay"></div>
+            <i class="fa fa-file-image-o"></i>
+            <img src="images/portfolio/6.jpg" alt="item6">
+          </div>
+        </li>
+        <div class="clr"></div>
+      </ul>
+      
+    </div>
+
+
+    <div class="stats-container">
+      <div class="stats">
+        <div class="number">
+          <i class="fa fa-users"></i>
+          <h2>200</h2>
+          <p>team members</p>
+        </div>
+        <div class="number">
+          <i class="fa fa-files-o"></i>
+          <h2>345</h2>
+          <p>Complete Projects</p>
+        </div>
+        <div class="number">
+          <i class="fas fa-cloud-download-alt"></i>
+          <h2>1800</h2>
+          <p>Files Downloaded</p>
+        </div>
+        <div class="number">
+          <i class="fa fa-coffee"></i>
+          <h2>1200</h2>
+          <p>Lines Of Code</p>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <h2 class="heading lines">Client's Feedback</h2>
+      <div class="card">
+        <img src="images/feedback.jpg" alt="user profile image">
+        <div class="card-caption">
+          <h2>Alex ander</h2>
+          <div class="place">
+            <i class="fa fa-map-marker"></i>
+            <p class="display-inline">united</p>
+          </div>
+          <p class="italic-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam adipisci natus repellat culpa quam libero nesciunt itaque consequatur aliquam!</p>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2 class="heading lines">Our Blog</h2>
+      <div class="blog-cards-container">
+        <div class="blog-card">
+          <img src="images/blog/12.jpg" alt="blog12">
+          <div class="blog-caption">
+            <p>23 November, 2015</p>
+            <h3>Web Design Blog Post</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+
+            <div class="read-more">
+              <p>read more</p>
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="blog-card video-card">
+          <iframe src="https://www.youtube.com/embed/uVju5--RqtY?si=JEmHVE97Hqjpup1K">
+          </iframe>
+          <div class="blog-caption">
+            <p>20 April, 2018</p>
+            <h3>Development Blog Post</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+
+            <div class="read-more">
+              <p>read more</p>
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="blog-card no-margin">
+          <img src="images/blog/32.jpg" alt="blog32">
+          <div class="blog-caption">
+            <p>17 May, 2017</p>
+            <h3>Full Width Blog Post</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
+
+            <div class="read-more">
+              <p>read more</p>
+              <i class="fa fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+
+    <form class="contact-us">
+      
+      
+      <div class="input-container">
+        <div class="form-header">
+          <h2 class="lines heading">Contact Us</h2>
+        </div>
+      <input type="text" placeholder="Name" required class="width-45-input margin-right-50" name="name">
+      <input type="email" placeholder="Email" required class="width-45-input" id="float-right" name="email">
+      <input type="text" placeholder="Subject" reuired class="width-100-input" name="Subject">
+      <textarea name="message" cols="30" rows="5" placeholder="Message for me"></textarea>
+      
+      <div class="clr"></div>
+      </div>
+
+    <button class="btn">SEND MESSAGE</button>
+    </form>
+
+    <footer>
+
+      <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-google"></i>
+      <i class="fa fa-github"></i>
+      </div>
+      <p>Copy Right 2018 © By <span id="theme-color">Theme-fair</span> All Rights Reserved</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
